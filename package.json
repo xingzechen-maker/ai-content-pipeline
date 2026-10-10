@@ -1,0 +1,22 @@
+{
+  "name": "ai-content-pipeline",
+  "version": "0.1.0",
+  "description": "用大模型API 批量生产 SEO/GEO 内容的工程化流水线",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "publisher/robustness.js",
+  "scripts": {
+    "test": "python lib/progress.py --demo && python lib/sanitize.py"
+  },
+  "keywords": [
+    "llm",
+    "content-pipeline",
+    "seo",
+    "geo",
+    "batch-processing",
+    "cannibalization"
+  ],
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

@@ -1,0 +1,34 @@
+# ── 密钥：绝不进仓库 ────────────────────────────────────────────
+.env
+*.key
+*.pem
+secrets/
+!.env.example
+
+# ── 业务数据：可能含未公开内容 ───────────────────────────────────
+inventory.json
+articles.json
+links.json
+cms_articles.json
+topics*.txt
+collisions*.json
+progress*.json
+*.log
+archive*.docx
+
+# ── 发布产物 ────────────────────────────────────────────────────
+单篇文章/
+_replace/
+out/
+*.bak
+
+# ── 编辑器与系统 ────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+venv/
+.venv/
+node_modules/
